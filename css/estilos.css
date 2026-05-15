@@ -77,7 +77,13 @@ body {
   padding: 40px;
   display: flex;
   gap: 50px;
-  width: 800px;
+  width: 800px; 
+  transition: all 0.3s ease-in;
+}
+
+.tarjeta:hover {
+  transform: scale(1.02);
+  box-shadow: 0 1px 10px white;
 }
 
 /*COLUMNA IZQUIERDA*/
