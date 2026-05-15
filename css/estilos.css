@@ -230,6 +230,14 @@ body {
   gap: 1rem;
 }
 
+.terminos h1 {
+  color: red;
+}
+
+.terminos h2 {
+  color: #1759cb;
+}
+
 /* FOOTER */
 
 footer {

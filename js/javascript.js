@@ -1,4 +1,4 @@
-function renderPerfil(datos) {
+function datosPerfil(datos) {
 
   document.getElementById('campo-nombre').textContent     = datos.nombre    || '*****';
   document.getElementById('campo-contrasena').textContent = datos.contrasena || '*****';
@@ -29,7 +29,7 @@ function obtenerUsuario() {
         foto: user.picture.large
       };
 
-      renderPerfil(datosMapeados);
+      datosPerfil(datosMapeados);
     })
     .catch(error => {
       console.error("Error al obtener el usuario:", error);
